@@ -1,18 +1,16 @@
-# Email-Template
-Email template for new clients with their sign in info
 <!doctype html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Welcome!</title>
+    <h1>Welcome!</h1>
     <style>
        <!--BUTTONS-->
       .btn {
         box-sizing: border-box;
         width: 100%; }
         .btn > tbody > tr > td {
-          padding-bottom: 15px; }
+          /*padding-bottom: 1px; }*/
         .btn table {
           width: auto; 
       }
@@ -88,7 +86,7 @@ Email template for new clients with their sign in info
       h2,
       h3,
       h4 {
-        color: #000000;
+        color: #00000;
         font-family: sans-serif;
         font-weight: 400;
         line-height: 1.4;
@@ -144,12 +142,12 @@ Email template for new clients with their sign in info
                     <tr>
                       <td>
                         <p>Wahoo! Your truDigital account is set up and ready to go! Use your username and password below to                               log into your account.</p>
-                        <p>Username: 
+                        <p>Username: <br>
                         Password: </p>
                         <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="btn btn-primary">
                           <tbody>
                             <tr>
-                              <td align="left">
+                             <td align="left">
                                 <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                                   <tbody>
                                     <tr>
@@ -161,15 +159,43 @@ Email template for new clients with their sign in info
                             </tr>
                           </tbody>
                         </table>
-                        <title>Technical Support</title>
-                        <p>Contact Support with any questions about your digital signage hardware or software</p>
-                        <p>Hours: 7AM - 6PM MST Mon.-Fri.
-                        Email: support@truDigital.net
+                        <h3>Technical Support</h3>
+                        <p>Contact Support with any questions about your digital signage hardware or software.</p>
+              
+                 <tr>
+                      <td class="btn primary a"<a href="https://trudigital.freshdesk.com/support/tickets/new" target=_"blank">Message Support</a></td>
+                    </tr>
+      <tr>
+                                    <h3>Billing</h3>
+      <p>Contact billing with any questions <strong>about payments or subscriptions.</strong>
+        <ul>
+          <li>Email: billing@trudigital.net</li>
+          <li>Phone: 801-852-9898 (find out)</li>
+      </ul></p>
+    </tr>
+  </body>
+                                     <tr>
+                                      <td class="btn table td"<a href="" target="_blank">Message Billing</a></td>
+                                    </tr>
+                        <p>Hours: 7AM - 6PM MST Mon.-Fri.<br>
+                        Email: support@truDigital.net<br>
                         Phone: 801-852-9898</p>
                       </td>
-                      <td class="btn a"<a href="" target=_"blank">Message Support</a></td>
-                    </tr>
                   </table>
+                  <h3>Schedule Training</h3>
+                  <p>Schedule a <strong>one-on-one online training session</strong> to become fore familiar with the truDigital platform and to ensure you get the most out of your digital signage.</p>
+  <tr>
+                                      <td class="btn table td"<a href="" target="_blank">Schedule Training</a></td>
+                                    </tr>
+<h1>
+  Thank You!
+</h1>
+<p>
+  We are excited to be working with you and look forward to helping you accomplish all of your digital signage goals!
+</p>
+<p>
+  -Your truDigital Team
+</p>
                 </td>
               </tr>
 
